@@ -246,7 +246,7 @@ Network subnamespace
              >>> hosts.add(ipaddress, hostname, alias)
              >>> hosts.remove(ipaddress, hostname, alias)
 
-             This gets rid of ``cloudinit.distros.Distro.update_etc_hosts
+             This gets rid of ``cloudinit.distros.Distro.update_etc_hosts``
              and can provide support for adding a new hostname for Windows, as well.
              """
 
@@ -311,7 +311,7 @@ Network subnamespace
                 """Add a new route."""
 
             def delete(self, destination, mask, metric, ...):
-                """Delete a route.""'
+                """Delete a route."""
 
       class InterfaceContainer(object):
             """Container for interfaces, with similar API as for RouteContainer."""
