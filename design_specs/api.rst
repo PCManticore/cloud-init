@@ -228,7 +228,7 @@ Network subnamespace
                                        broadcast, gateway, dnsnameservers):
              """Configure a new static network.
 
-             The :meth:`cloudinit.distros.Distro.apply_network`` should be
+             The :meth:``cloudinit.distros.Distro.apply_network`` should be
              removed in the favour of this method,
              which will be called by each network plugin.
              The method can be a template method, providing
