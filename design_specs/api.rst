@@ -305,7 +305,7 @@ Network subnamespace
                 """Delete a route, equivalent to :meth:`delete_route`."""
 
             def __add__(self, item):
-                """Add route, equivalent to :meth:`add_route``."""
+                """Add route, equivalent to :meth:``add_route``."""
 
             def add(self, route):
                 """Add a new route."""
